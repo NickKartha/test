@@ -1,11 +1,20 @@
-# For Ubuntu
+# Installation
 
-$ sudo apt-get install cmake
+### For Ubuntu
 
-# For Redhat
+`$ sudo apt-get install cmake`
 
-$ yum install cmake
+### For Redhat
 
-# For Mac OS X with Macports
+`$ yum install cmake`
 
-$ sudo port install cmake
+### For Mac OS X with Macports
+
+`$ sudo port install cmake`
+
+# Build
+
+```
+$ cmake -H. -Bbuild
+$ cmake --build build -- -j3
+```
